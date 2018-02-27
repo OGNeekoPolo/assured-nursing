@@ -1,0 +1,483 @@
+!!!
+%html{:xmlns => "http://www.w3.org/1999/xhtml"}
+  %head#Head1
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title
+      Registered Nurse (RN) - Psychiatrics/Behavioral Health - IN
+    %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "initial-scale=1.0; maximum-scale=1.0; user-scalable=yes", :name => "viewport"}/
+    %link{:href => "http://www.assurednursing.com/files/2015/10/favicon.ico", :rel => "shortcut icon"}/
+    %link{:href => "/HHStyles.css", :rel => "Stylesheet", :type => "text/css"}/
+    %link{:href => "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css", :rel => "stylesheet"}/
+    %link{:href => "http://www.assurednursing.com/wp-content/themes/131108-Assurednursing.com/Assured-Nursing-2015/styles/boots-bones.css", :media => "all", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "http://www.assurednursing.com/wp-content/plugins/bwp-minify/min/?f=wp-content/themes/131108-Assurednursing.com/Assured-Nursing-2015/style.css", :media => "all", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "/HHStylesCustom.css", :rel => "Stylesheet", :type => "text/css"}/
+    /[if lt IE 9]
+<link rel="stylesheet" type="text/css" href="/ie-8.css" />
+    /[if lt IE 9]
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  %meta{:content => "summary", :name => "twitter:card"}/
+  %link{:href => "Registered_Nurse_RN__PsychiatricsBehavioral_Health_J2541202.aspx", :rel => "canonical"}/
+  :javascript
+      if (typeof jQuery == 'undefined') {
+          document.write('
+          <script type="text/javascript" src="/js/jquery.min.js">
+          </' + 'script>');
+      }
+  %script{:src => "../js/Highlight.js", :type => "text/javascript"}
+  %script{:language => "javascript", :type => "text/javascript"}
+    :cdata
+        jQuery(document).ready(function () {
+        if (document.getElementById("uxKeywords") != null)
+        var keywords = document.getElementById("uxKeywords").value.split(",");
+        jQuery.each(keywords, function (i) {
+        var keyword = keywords[i];
+        var wordsOnly = (keyword.indexOf(".") == -1 && keyword.indexOf("#") == -1 && keyword.indexOf("+") == -1 && keyword.indexOf("*") == -1);
+        jQuery("#dvSearchDetailContainer").highlight(jQuery.trim(keyword.replace("\*", "")), { wordsOnly: wordsOnly });
+        });
+        });
+
+        function ShowSendForm() {
+        if (document.getElementById('dvSendToFriend').style.display == 'none')
+        document.getElementById('dvSendToFriend').style.display = '';
+        else
+        document.getElementById('dvSendToFriend').style.display = 'none';
+        }
+
+        function RefreshImage(valImageId) {
+        var objImage = document.images[valImageId];
+        if (objImage == undefined) {
+        return;
+        }
+        var now = new Date();
+        objImage.src = objImage.src.split('?')[0] + '?x=' + now.toUTCString();
+        }
+
+        function SendEmail() {
+        var frm = document.getElementById("form1");
+        if (CheckForm()) {
+        jQuery.post("/JobSeeker/Handlers/SendToFriend.ashx", { FromEmail: frm.ctl00$ContentPlaceHolder1$txtFromEmail.value, ToEmail: frm.ctl00$ContentPlaceHolder1$txtToEmail.value, Subject: frm.ctl00$ContentPlaceHolder1$txtSubject.value, Message: frm.ctl00$ContentPlaceHolder1$txtBody.value, Captcha: frm.ctl00$ContentPlaceHolder1$txtTuring.value },
+        function (data) {
+        if (data.toLowerCase() == "sent") {
+        alert("Your email has been sent.");
+        ShowSendForm();
+        }
+        else
+        alert("The following error occurred trying to send your email.\n" + data);
+        });
+        }
+        }
+
+
+        function stringIsEmail(elementValue) {
+        var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+        return emailPattern.test(elementValue);
+        }
+
+
+        function CheckForm() {
+        var frmSendToFriend = document.getElementById("form1");
+        var prefix = "ctl00$ContentPlaceHolder1$";
+
+        if (!stringIsEmail(frmSendToFriend.elements[prefix + "txtFromEmail"].value)) {
+        alert("Please provide a valid to address.");
+        frmSendToFriend.elements[prefix + "txtFromEmail"].focus();
+        return false;
+        }
+
+        if (!stringIsEmail(frmSendToFriend.elements[prefix + "txtToEmail"].value)) {
+        alert("Please provide a valid to address.");
+        frmSendToFriend.elements[prefix + "txtToEmail"].focus();
+        return false;
+        }
+
+        if (frmSendToFriend.elements[prefix + "txtSubject"].value == "") {
+        alert("Please provide a subject.");
+        frmSendToFriend.elements[prefix + "txtSubject"].focus();
+        return false;
+        }
+
+        if (frmSendToFriend.elements[prefix + "txtBody"].value == "") {
+        alert("Please provide a message.");
+        frmSendToFriend.elements[prefix + "txtBody"].focus();
+        return false;
+        }
+
+        if (frmSendToFriend.elements[prefix + "txtTuring"].value == "") {
+        alert("Invalid verification code.");
+        frmSendToFriend.elements[prefix + "txtTuring"].focus();
+        return false;
+        }
+        return true;
+        }
+  %meta{:content => " Indiana(Multiple Locations Available)&nbsp;  Job Duties  The Registered Nurse demonstrates performance consistent with professional standards of practice, care, performance, the Nurse Practice Act and the mission and goals of the organization The Registered Nurse manages patient care in the health care continuum to achieve optimum outcomes in a safe and cost-effective manner The Registered Nurse demonstrates skills in collaboration, delegation, negotiation and management of resources Experience&nbsp;2 years experience in Behavioral Health preferred Education&nbsp;Graduate of Accreditation Commission for Education in Nursing or Commission on Collegiate Nursing Education accredited school of nursing, or five years related professional nursing experience. License&nbsp;Licensed as a Registered Nurse by the Indiana Professional Licensing Agency required.  &nbsp; ", :name => "description"}/
+  %meta{:content => "Registered Nurse (RN) - Psychiatrics/Behavioral Health - IN", :name => "title"}/
+  %meta{:content => " Indiana(Multiple Locations Available)&nbsp;  Job Duties  The Registered Nurse demonstrates performance consistent with professional standards of practice, care, performance, the Nurse Practice Act and the mission and goals of the organization The Registered Nurse manages patient care in the health care continuum to achieve optimum outcomes in a safe and cost-effective manner The Registered Nurse demonstrates skills in collaboration, delegation, negotiation and management of resources Experience&nbsp;2 years experience in Behavioral Health preferred Education&nbsp;Graduate of Accreditation Commission for Education in Nursing or Commission on Collegiate Nursing Education accredited school of nursing, or five years related professional nursing experience. License&nbsp;Licensed as a Registered Nurse by the Indiana Professional Licensing Agency required.  &nbsp; ", :name => "og:description", :property => "og:description"}/
+  %meta{:content => "Registered Nurse (RN) - Psychiatrics/Behavioral Health - IN", :name => "og:title", :property => "og:title"}/
+  %meta{:content => "Registered_Nurse_RN__PsychiatricsBehavioral_Health_J2541202.aspx", :name => "og:url", :property => "og:url"}/
+  %body.page.page-id-23.page-template-default
+    %header#masthead.site-header{:role => "banner"}
+      .container
+        #brand
+          %h1.site-title
+            %a{:href => "http://www.assurednursing.com/", :rel => "home", :title => "Assured Nursing"} Assured Nursing
+        / /brand
+        #mobile-menu
+          %i.fa.fa-bars
+        .header-right
+          .header-contact
+            .header-contact-info
+              %i.fa.fa-phone
+              (317) 862-8141      
+              %a.header-contact-email{:href => "mailto:staffing@assurednursing.com", :target => "_blank"}
+                %i.fa.fa-envelope
+                staffing@assurednursing.com
+            %a.social{:href => "https://www.facebook.com/AssuredNursing", :target => "_blank"}
+              %i.fa.fa-facebook
+            %a.social{:href => "https://www.instagram.com/assurednursing/", :target => "_blank"}
+              %i.fa.fa-instagram
+            %a.social{:href => "https://twitter.com/AssuredNursing ", :target => "_blank"}
+              %i.fa.fa-twitter
+            %a.social{:href => "http://www.linkedin.com/company/assured-nursing-inc?trk=tyah", :target => "_blank"}
+              %i.fa.fa-linkedin
+          %nav.site-navigation.main-navigation{:role => "navigation"}
+            .menu-menu-1-container
+              %ul#menu-menu-1.menu
+                %li#menu-item-11.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-11
+                  %a{:href => "http://www.assurednursing.com/"} Home
+                %li#menu-item-12.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-12
+                  %a{:href => "http://www.assurednursing.com/about-us/"} About Us
+                %li#menu-item-15.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-15
+                  %a{:href => "/jobseeker/SearchResults.aspx?featured=1&runsearch=1"} Open Positions
+                %li#menu-item-13.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-13
+                  %a{:href => "http://www.assurednursing.com/contact-us/"} Contact Us
+          / .site-navigation .main-navigation
+        .clear
+      / /container
+    / #masthead .site-header
+    .bar.center
+      %h3.second-font We place nurses in fabulous places!
+      %form#keyword-state-search{:action => "/JobSeeker/SearchResults.aspx", :method => "post"}
+        %input#keyword-search{:name => "spKeyword", :placeholder => "Job Title"}/
+        %select#state-search{:name => "citystate"}
+          %option{:value => ""} Select State
+          %option{:value => "AL"} AL
+          %option{:value => "AK"} AK
+          %option{:value => "AZ"} AZ
+          %option{:value => "AR"} AR
+          %option{:value => "CA"} CA
+          %option{:value => "CO"} CO
+          %option{:value => "CT"} CT
+          %option{:value => "DE"} DE
+          %option{:value => "DC"} DC
+          %option{:value => "FL"} FL
+          %option{:value => "GA"} GA
+          %option{:value => "HI"} HI
+          %option{:value => "ID"} ID
+          %option{:value => "IL"} IL
+          %option{:value => "IN"} IN
+          %option{:value => "IA"} IA
+          %option{:value => "KS"} KS
+          %option{:value => "KY"} KY
+          %option{:value => "LA"} LA
+          %option{:value => "ME"} ME
+          %option{:value => "MD"} MD
+          %option{:value => "MA"} MA
+          %option{:value => "MI"} MI
+          %option{:value => "MN"} MN
+          %option{:value => "MS"} MS
+          %option{:value => "MO"} MO
+          %option{:value => "MT"} MT
+          %option{:value => "NE"} NE
+          %option{:value => "NV"} NV
+          %option{:value => "NH"} NH
+          %option{:value => "NJ"} NJ
+          %option{:value => "NM"} NM
+          %option{:value => "NY"} NY
+          %option{:value => "NC"} NC
+          %option{:value => "ND"} ND
+          %option{:value => "OH"} OH
+          %option{:value => "OK"} OK
+          %option{:value => "OR"} OR
+          %option{:value => "PA"} PA
+          %option{:value => "RI"} RI
+          %option{:value => "SC"} SC
+          %option{:value => "SD"} SD
+          %option{:value => "TN"} TN
+          %option{:value => "TX"} TX
+          %option{:value => "UT"} UT
+          %option{:value => "VT"} VT
+          %option{:value => "VA"} VA
+          %option{:value => "WA"} WA
+          %option{:value => "WV"} WV
+          %option{:value => "WI"} WI
+          %option{:value => "WY"} WY
+        %input{:name => "RunSearch", :type => "hidden", :value => "1"}/
+        %input{:name => "spSortOrder", :type => "hidden", :value => "2"}/
+        %input{:name => "RecordViewCount", :type => "hidden", :value => "1000"}/
+        %input#Submit.keyword-state-submit{:type => "submit", :value => "Go!"}/
+    .main-container
+      #primary
+        #content.span8{:role => "main"}
+          %article.post
+            %h1#pageTitleH1.title
+            .the-content
+              %form#form1{:action => "./Detail.aspx?jid=02541202", :method => "post"}
+                %input#__VIEWSTATE{:name => "__VIEWSTATE", :type => "hidden", :value => "/wEPDwUJMjY5Mjc5MDE5D2QWAmYPZBYEZg9kFgICDA9kFgICAQ8WAh4EVGV4dAVgPGxpbmsgcmVsPSJjYW5vbmljYWwiIGhyZWY9IlJlZ2lzdGVyZWRfTnVyc2VfUk5fX1BzeWNoaWF0cmljc0JlaGF2aW9yYWxfSGVhbHRoX0oyNTQxMjAyLmFzcHgiIC8+ZAIBD2QWAgIBD2QWHgIBDw8WBB8ABQxCYWNrIFRvIExpc3QeB1Zpc2libGVoZGQCCQ8PFgIfAAU2UmVnaXN0ZXJlZCBOdXJzZSAoUk4pIC0gUHN5Y2hpYXRyaWNzL0JlaGF2aW9yYWwgSGVhbHRoZGQCCg8WAh8BaGQCCw8PFgIeC05hdmlnYXRlVXJsBS1+L0pvYlNlZWtlci9Qcm9maWxlX1F1aWNrLmFzcHg/am9iaWQ9MDI1NDEyMDJkZAIMD2QWAgIBDw8WAh8ABQJJTmRkAg0PFgIfAWgWAgIBDw8WAh8AZWRkAg4PFgIfAWgWAgIBDw8WAh8AZWRkAg8PZBYCAgEPDxYCHwAFCENvbnRyYWN0ZGQCEA8WAh8BaBYCAgEPDxYCHwBlZGQCEQ9kFgICAQ8PFgIfAAUMTm92IDEzLCAyMDE3ZGQCEg9kFgICAQ8PFgIfAAUHMjU0MTIwMmRkAhMPDxYCHwAF9wcgPHA+PGI+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxNHB0Ij5JbmRpYW5hKE11bHRpcGxlIExvY2F0aW9ucyBBdmFpbGFibGUpJm5ic3A7PC9zcGFuPjxicj4gPGJyPiBKb2IgRHV0aWVzPC9iPjwvcD4gPHVsPiA8bGk+VGhlIFJlZ2lzdGVyZWQgTnVyc2UgZGVtb25zdHJhdGVzIHBlcmZvcm1hbmNlIGNvbnNpc3RlbnQgd2l0aCBwcm9mZXNzaW9uYWwgc3RhbmRhcmRzIG9mIHByYWN0aWNlLCBjYXJlLCBwZXJmb3JtYW5jZSwgdGhlIE51cnNlIFByYWN0aWNlIEFjdCBhbmQgdGhlIG1pc3Npb24gYW5kIGdvYWxzIG9mIHRoZSBvcmdhbml6YXRpb24gPC9saT48bGk+VGhlIFJlZ2lzdGVyZWQgTnVyc2UgbWFuYWdlcyBwYXRpZW50IGNhcmUgaW4gdGhlIGhlYWx0aCBjYXJlIGNvbnRpbnV1bSB0byBhY2hpZXZlIG9wdGltdW0gb3V0Y29tZXMgaW4gYSBzYWZlIGFuZCBjb3N0LWVmZmVjdGl2ZSBtYW5uZXIgPC9saT48bGk+VGhlIFJlZ2lzdGVyZWQgTnVyc2UgZGVtb25zdHJhdGVzIHNraWxscyBpbiBjb2xsYWJvcmF0aW9uLCBkZWxlZ2F0aW9uLCBuZWdvdGlhdGlvbiBhbmQgbWFuYWdlbWVudCBvZiByZXNvdXJjZXM8L2xpPjwvdWw+IDxwPjxiPkV4cGVyaWVuY2U8L2I+Jm5ic3A7MiB5ZWFycyBleHBlcmllbmNlIGluIEJlaGF2aW9yYWwgSGVhbHRoIHByZWZlcnJlZDwvcD4gPHA+PGI+RWR1Y2F0aW9uPC9iPiZuYnNwO0dyYWR1YXRlIG9mIEFjY3JlZGl0YXRpb24gQ29tbWlzc2lvbiBmb3IgRWR1Y2F0aW9uIGluIE51cnNpbmcgb3IgQ29tbWlzc2lvbiBvbiBDb2xsZWdpYXRlIE51cnNpbmcgRWR1Y2F0aW9uIGFjY3JlZGl0ZWQgc2Nob29sIG9mIG51cnNpbmcsIG9yIGZpdmUgeWVhcnMgcmVsYXRlZCBwcm9mZXNzaW9uYWwgbnVyc2luZyBleHBlcmllbmNlLjwvcD4gPHA+PGI+TGljZW5zZTwvYj4mbmJzcDtMaWNlbnNlZCBhcyBhIFJlZ2lzdGVyZWQgTnVyc2UgYnkgdGhlIEluZGlhbmEgUHJvZmVzc2lvbmFsIExpY2Vuc2luZyBBZ2VuY3kgcmVxdWlyZWQuPGJyPiA8YnI+ICZuYnNwOzwvcD4gZGQCFA8PFgIfAgUtfi9Kb2JTZWVrZXIvUHJvZmlsZV9RdWljay5hc3B4P2pvYmlkPTAyNTQxMjAyZGQCFQ8PFgQfAAUMQmFjayBUbyBMaXN0HwFoZGQCFg8WAh8ABYwNPHNjcmlwdCB0eXBlPSJhcHBsaWNhdGlvbi9sZCtqc29uIj4gew0KIkBjb250ZXh0IiA6ICJodHRwOi8vc2NoZW1hLm9yZy8iLA0KIkB0eXBlIiA6ICJKb2JQb3N0aW5nIiwNCiJ0aXRsZSIgOiAiUmVnaXN0ZXJlZCBOdXJzZSAoUk4pIC0gUHN5Y2hpYXRyaWNzL0JlaGF2aW9yYWwgSGVhbHRoIiwNCiJkZXNjcmlwdGlvbiIgOiAiPHA+PGI+PHNwYW4gc3R5bGU9XCJmb250LXNpemU6MTRwdDtcIj5JbmRpYW5hKE11bHRpcGxlIExvY2F0aW9ucyBBdmFpbGFibGUpJm5ic3A7PC9zcGFuPjxiciAvPjxiciAvPkpvYiBEdXRpZXM8L2I+PC9wPjx1bD4JPGxpPlRoZSBSZWdpc3RlcmVkIE51cnNlIGRlbW9uc3RyYXRlcyBwZXJmb3JtYW5jZSBjb25zaXN0ZW50IHdpdGggcHJvZmVzc2lvbmFsIHN0YW5kYXJkcyBvZiBwcmFjdGljZSwgY2FyZSwgcGVyZm9ybWFuY2UsIHRoZSBOdXJzZSBQcmFjdGljZSBBY3QgYW5kIHRoZSBtaXNzaW9uIGFuZCBnb2FscyBvZiB0aGUgb3JnYW5pemF0aW9uPC9saT4JPGxpPlRoZSBSZWdpc3RlcmVkIE51cnNlIG1hbmFnZXMgcGF0aWVudCBjYXJlIGluIHRoZSBoZWFsdGggY2FyZSBjb250aW51dW0gdG8gYWNoaWV2ZSBvcHRpbXVtIG91dGNvbWVzIGluIGEgc2FmZSBhbmQgY29zdC1lZmZlY3RpdmUgbWFubmVyPC9saT4JPGxpPlRoZSBSZWdpc3RlcmVkIE51cnNlIGRlbW9uc3RyYXRlcyBza2lsbHMgaW4gY29sbGFib3JhdGlvbiwgZGVsZWdhdGlvbiwgbmVnb3RpYXRpb24gYW5kIG1hbmFnZW1lbnQgb2YgcmVzb3VyY2VzPC9saT48L3VsPjxwPjxiPkV4cGVyaWVuY2U8L2I+Jm5ic3A7MiB5ZWFycyBleHBlcmllbmNlIGluIEJlaGF2aW9yYWwgSGVhbHRoIHByZWZlcnJlZDwvcD48cD48Yj5FZHVjYXRpb248L2I+Jm5ic3A7R3JhZHVhdGUgb2YgQWNjcmVkaXRhdGlvbiBDb21taXNzaW9uIGZvciBFZHVjYXRpb24gaW4gTnVyc2luZyBvciBDb21taXNzaW9uIG9uIENvbGxlZ2lhdGUgTnVyc2luZyBFZHVjYXRpb24gYWNjcmVkaXRlZCBzY2hvb2wgb2YgbnVyc2luZywgb3IgZml2ZSB5ZWFycyByZWxhdGVkIHByb2Zlc3Npb25hbCBudXJzaW5nIGV4cGVyaWVuY2UuPC9wPjxwPjxiPkxpY2Vuc2U8L2I+Jm5ic3A7TGljZW5zZWQgYXMgYSBSZWdpc3RlcmVkIE51cnNlIGJ5IHRoZSBJbmRpYW5hIFByb2Zlc3Npb25hbCBMaWNlbnNpbmcgQWdlbmN5IHJlcXVpcmVkLjxiciAvPjxiciAvPiZuYnNwOzwvcD4iLA0KImlkZW50aWZpZXIiOiB7DQogICJAdHlwZSI6ICJQcm9wZXJ0eVZhbHVlIiwNCiAgIm5hbWUiOiAiQXNzdXJlZCBOdXJzaW5nIiwNCiAgInZhbHVlIjogIjAiDQp9LA0KImRhdGVQb3N0ZWQiIDogIjIwMTctMTEtMTMiLA0KImVtcGxveW1lbnRUeXBlIiA6ICJDT05UUkFDVE9SIiwNCiJoaXJpbmdPcmdhbml6YXRpb24iIDogew0KICAiQHR5cGUiIDogIk9yZ2FuaXphdGlvbiIsDQogICJuYW1lIiA6ICJBc3N1cmVkIE51cnNpbmciDQp9LA0KImpvYkxvY2F0aW9uIiA6IHsNCiAgIkB0eXBlIiA6ICJQbGFjZSIsDQogICJhZGRyZXNzIiA6IHsNCiAgICAiQHR5cGUiIDogIlBvc3RhbEFkZHJlc3MiLA0KICAgICJhZGRyZXNzTG9jYWxpdHkiIDogIiIsDQogICAgImFkZHJlc3NSZWdpb24iIDogIklOIiwNCiAgICAiYWRkcmVzc0NvdW50cnkiOiAiVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhIg0KICB9DQogfQ0KfQ0KPC9zY3JpcHQ+DQpkZCGQh1NCYHBYQHwikk5Yhk9HH+ht"}/
+                %input#__VIEWSTATEGENERATOR{:name => "__VIEWSTATEGENERATOR", :type => "hidden", :value => "9B6A77FB"}/
+                %input#__EVENTVALIDATION{:name => "__EVENTVALIDATION", :type => "hidden", :value => "/wEdAAZOd1D7LX99WXmMGJnYBkg29pH/WZ1fMvI0zZGU+evpQyw4mJ8AAatAOtgA1NU/hET7fRSwQZVllwMkwuSY74tRPKrXiAc1hQexUJe7W+CAQAUe5iLna/rcj0Qcwk1eFJhfM4IBsJ7oAneI+mWgFxBtzeE1Rw=="}/
+                #dvHookCntr
+                  %input#uxKeywords{:type => "hidden", :value => ""}/
+                  #dvSearchDetailContainer
+                    %span#ContentPlaceHolder1_lblError
+                      %b
+                        %font{:color => "Red"}
+                    #dvBackToJobsTop
+                    #dvSendToFriend{:style => "display:none;"}
+                      %table.tbSendToAFriend
+                        %tr
+                          %td
+                            Your Email
+                            %br/
+                            %input#ContentPlaceHolder1_txtFromEmail{:maxlength => "100", :name => "ctl00$ContentPlaceHolder1$txtFromEmail", :type => "text"}/
+                          %td
+                            Friend's Email
+                            %br/
+                            %input#ContentPlaceHolder1_txtToEmail{:maxlength => "100", :name => "ctl00$ContentPlaceHolder1$txtToEmail", :type => "text"}/
+                        %tr
+                          %td{:colspan => "2"}
+                            Subject
+                            %br/
+                            %input#ContentPlaceHolder1_txtSubject{:maxlength => "100", :name => "ctl00$ContentPlaceHolder1$txtSubject", :type => "text", :value => "Job Listing on Assured Nursing"}/
+                        %tr
+                          %td{:colspan => "2"}
+                            Your Email
+                            %br/
+                            %textarea#ContentPlaceHolder1_txtBody{:cols => "20", :name => "ctl00$ContentPlaceHolder1$txtBody", :rows => "4", :style => "width:95%;height:100px;"}
+                              :preserve
+
+                                I thought you might be interested in the Registered Nurse (RN) - Psychiatrics/Behavioral Health job listed at Assured Nursing.  Just copy and paste the following link into your browser: http://jobs.assurednursing.com/JobSeeker/Detail.aspx?jid=02541202                        %tr
+                          %td
+                            Enter the number in the image to the right
+                            = succeed "\u{a0}" do
+                              %input#ContentPlaceHolder1_txtTuring{:maxlength => "5", :name => "ctl00$ContentPlaceHolder1$txtTuring", :type => "text"}/
+                            %span#ContentPlaceHolder1_lblTuring
+                              %font{:color => "Red"}
+                          %td
+                            %img{:alt => "", :height => "30", :src => "../Turing.aspx", :width => "80"}/
+                        %tr
+                          %td{:colspan => "2", :style => "text-align:right"}
+                            %a{:href => "javascript:SendEmail();"} Send Email
+                    #dvPositionTitle
+                      %h1.textColorTwo
+                        %span#ContentPlaceHolder1_lblPositionTitle Registered Nurse (RN) - Psychiatrics/Behavioral Health
+                      #dvApplySocial
+                        #dvSocialButtons
+                          %table#tblSocialButtons{:cellpadding => "0", :cellspacing => "0", :style => "display:inline;"}
+                            %tr
+                              %td{:style => "vertical-align:top;padding-top:0px"}
+                                %a#lnkSocialEmail{:href => "javascript:void(0);", :onclick => "javascript:ShowSendForm();"}
+                                  %img{:src => "../images/email-wo-seams_thumb.png", :style => "padding-top:0px"}/
+                              %td{:style => "vertical-align: top;padding-top:0px"}
+                                %a#lnkSocialTwitter{:href => "http://twitter.com/home?status=http%3a%2f%2fjobs.assurednursing.com%2fJobSeeker%2fDetail.aspx%3fjid%3d02541202", :rel => "nofollow", :target => "_blank", :title => "Share on Twitter"}
+                                  %img{:alt => "Twitter", :src => "../images/twitter.png", :style => "padding-top:0px"}/
+                              %td{:style => "vertical-align: top;padding-top:0px"}
+                                %script{:src => "https://platform.linkedin.com/in.js", :type => "text/javascript"}
+                                %script{:type => "IN/Share"}
+                              %td{:style => "vertical-align: top;padding-top:0px"}
+                                %a#lnkSocialFacebook{:href => "http://www.facebook.com/sharer.php?u=http%3a%2f%2fjobs.assurednursing.com%2fJobSeeker%2fDetail.aspx%3fjid%3d02541202", :rel => "nofollow", :target => "_blank", :title => "Share on Facebook"}
+                                  %img{:alt => "Facebook", :src => "../images/fb.png", :style => "padding-top:0px"}/
+                              %td{:style => "vertical-align:top;padding-right:45px;padding-top:0px"}
+                                %plusone{:annotation => "none", :href => "http%3a%2f%2fjobs.assurednursing.com%2fJobSeeker%2fDetail.aspx%3fjid%3d02541202", :size => "medium"}
+                                :javascript
+                                  (function () { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })();
+                    #dvJobDetails
+                      #dvXtras.textColorTwo
+                        #upperApply
+                          %a#ContentPlaceHolder1_lnkApply2{:href => "Profile_Quick.aspx?jobid=02541202"} Apply
+                        #ContentPlaceHolder1_dvLocation
+                          %span.hdr Location
+                          %br/
+                          %span#ContentPlaceHolder1_lblLocation IN
+                        #ContentPlaceHolder1_dvJobType
+                          %span.hdr Job Type
+                          %br/
+                          %span#ContentPlaceHolder1_lblJobType Contract
+                        #ContentPlaceHolder1_dvPosted
+                          %span.hdr Date
+                          %br/
+                          %span#ContentPlaceHolder1_lblDatePosted Nov 13, 2017
+                        #ContentPlaceHolder1_dvJobID
+                          %span.hdr Job ID
+                          %br/
+                          %span#ContentPlaceHolder1_lblJobId 2541202
+                      #dvDescription
+                        .desc
+                          %span#ContentPlaceHolder1_lblDescription
+                            %p
+                              %b
+                                %span{:style => "font-size:14pt"} Indiana(Multiple Locations Available) 
+                                %br/
+                                %br/
+                                Job Duties
+                            %ul
+                              %li The Registered Nurse demonstrates performance consistent with professional standards of practice, care, performance, the Nurse Practice Act and the mission and goals of the organization
+                              %li The Registered Nurse manages patient care in the health care continuum to achieve optimum outcomes in a safe and cost-effective manner
+                              %li The Registered Nurse demonstrates skills in collaboration, delegation, negotiation and management of resources
+                            %p
+                              %b> Experience
+                               2 years experience in Behavioral Health preferred
+                            %p
+                              %b> Education
+                               Graduate of Accreditation Commission for Education in Nursing or Commission on Collegiate Nursing Education accredited school of nursing, or five years related professional nursing experience.
+                            %p
+                              %b> License
+                               Licensed as a Registered Nurse by the Indiana Professional Licensing Agency required.
+                              %br/
+                              %br/
+                               
+                      #dvDetailBtmLinks
+                        #dvDetailApplyLink
+                          %a#ContentPlaceHolder1_lnkApply{:href => "Profile_Quick.aspx?jobid=02541202"} Apply
+                        #dvBackToJobsBtm
+                    %br.clear/
+                  %script{:type => "application/ld+json"}
+                    :cdata
+                      {
+                      "@context" : "http://schema.org/",
+                      "@type" : "JobPosting",
+                      "title" : "Registered Nurse (RN) - Psychiatrics/Behavioral Health",
+                      "description" : "
+                      <p>
+                      <b>
+                      <span style=\"font-size:14pt;\">Indiana(Multiple Locations Available)&nbsp;</span>
+                      <br />
+                      <br />Job Duties
+                      </b>
+                      </p>
+                      <ul>
+                      <li>The Registered Nurse demonstrates performance consistent with professional standards of practice, care, performance, the Nurse Practice Act and the mission and goals of the organization</li>
+                      <li>The Registered Nurse manages patient care in the health care continuum to achieve optimum outcomes in a safe and cost-effective manner</li>
+                      <li>The Registered Nurse demonstrates skills in collaboration, delegation, negotiation and management of resources</li>
+                      </ul>
+                      <p>
+                      <b>Experience</b>&nbsp;2 years experience in Behavioral Health preferred
+                      </p>
+                      <p>
+                      <b>Education</b>&nbsp;Graduate of Accreditation Commission for Education in Nursing or Commission on Collegiate Nursing Education accredited school of nursing, or five years related professional nursing experience.
+                      </p>
+                      <p>
+                      <b>License</b>&nbsp;Licensed as a Registered Nurse by the Indiana Professional Licensing Agency required.
+                      <br />
+                      <br />&nbsp;
+                      </p>",
+                      "identifier": {
+                      "@type": "PropertyValue",
+                      "name": "Assured Nursing",
+                      "value": "0"
+                      },
+                      "datePosted" : "2017-11-13",
+                      "employmentType" : "CONTRACTOR",
+                      "hiringOrganization" : {
+                      "@type" : "Organization",
+                      "name" : "Assured Nursing"
+                      },
+                      "jobLocation" : {
+                      "@type" : "Place",
+                      "address" : {
+                      "@type" : "PostalAddress",
+                      "addressLocality" : "",
+                      "addressRegion" : "IN",
+                      "addressCountry": "United States of America"
+                      }
+                      }
+                      }
+            / the-content
+        / #content .site-content
+      / #primary .content-area
+      #sidebar{:role => "sidebar"}
+        .sidebar-widget
+          %h2.widgettitle Benefits Page – sidebar pic
+          .textwidget
+            %img{:alt => "A road in the Rocky Mountains", :src => "http://www.assurednursing.com/files/2015/11/sidebar-road.jpg"}/
+        .sidebar-widget
+          .textwidget
+            .sidebar-text
+              %p Our dedication to YOU, combined with our understanding of the opportunities, allow us to make Travel Contracts easy and convenient.
+              %a.red.button{:href => "/jobseeker/Profile_Quick.aspx?", :target => "_blank"}
+                Submit Your Resume
+                %i.fa.fa-arrow-circle-o-right
+      / #sidebar
+    / .main-container
+    %footer.site-footer{:role => "contentinfo"}
+      .container
+        .half.left
+          %img{:alt => "Assured Nursing", :src => "http://www.assurednursing.com/files/2015/10/footer-logo.jpg"}/
+          %img{:alt => "National Quality Approval", :src => "http://www.assurednursing.com/files/2015/10/footer-logo2.png"}/
+          %img{:alt => "Certified Women's Business Enterprise", :src => "http://www.assurednursing.com/files/2015/10/footer-wbe.png"}/
+          %img{:alt => "Travelers Conference Exhibitor", :src => "http://www.assurednursing.com/files/2017/07/Proud-Exhibitor.png"}/
+        .half.right.alignright
+          %h4 Give us a call! (317) 862-8141
+          %p © 2018 Assured Nursing. All Rights Reserved.
+          %p
+            Site by
+            %a{:href => "https://www.topechelon.com/recruiting-websites/", :target => "_blank"} Top Echelon
+    / #colophon .site-footer
+    %script{:src => "http://www.assurednursing.com/wp-content/themes/131108-Assurednursing.com/Assured-Nursing-2015/js/jquery.fitvids.js?ver=20b83fe26538d61ef24700dc7bcab0ba", :type => "text/javascript"}
+    %script{:src => "http://www.assurednursing.com/wp-content/themes/131108-Assurednursing.com/Assured-Nursing-2015/js/theme.min.js?ver=20b83fe26538d61ef24700dc7bcab0ba", :type => "text/javascript"}
+    %i#lnkBackToTop.fa.fa-angle-up
+    :javascript
+      if (typeof jQuery == 'undefined') {
+          document.write('
+          <script type="text/javascript" src="/js/jquery.min.js">
+          </' + 'script>');
+      }
+    :javascript
+      function setBackToTop() {
+          jQuery("#lnkBackToTop").toggleClass("visible", (jQuery(window).height() < jQuery(document).height() && jQuery(window).scrollTop() > 0));
+      }
+
+      jQuery(document).ready(function () {
+          var pt = jQuery("#pageTitleH1");
+          var url = location.href.toLowerCase();
+          var re = /j(\d+)\.aspx/g;
+          var body = jQuery("body");
+
+          if (url.indexOf("search.aspx") > -1) {
+              pt.text("Search Jobs");
+              body.addClass("search-jobs");
+          } else if (url.indexOf("searchresults.aspx") > -1) {
+              if (url.indexOf("featured=1") > -1) {
+                  pt.text("Featured Jobs");
+                  body.addClass("featured-jobs");
+              } else {
+                  pt.text("Search Results");
+                  body.addClass("search-results");
+              }
+          } else if (re.test(url) || url.indexOf("detail.aspx") > -1) {
+              pt.text("Job Details");
+              body.addClass("job-detail");
+              jQuery("#sidebar").hide();
+              jQuery("#primary").addClass("full-width");
+          } else if (url.indexOf("profile.aspx") > -1 || url.indexOf("profile_quick.aspx") > -1) {
+              pt.text("Submit Resume");
+              body.addClass("profile");
+              jQuery("#sidebar").hide();
+              jQuery("#primary").addClass("full-width");
+          }
+
+          jQuery(window).on("resize, scroll", setBackToTop);
+          jQuery("#lnkBackToTop").on("click", function (e) {
+              jQuery("html, body").animate({ scrollTop: 0 }, 500);
+              e.preventDefault();
+              return false;
+          });
+
+          setBackToTop();
+
+          // Mobile Nav
+      jQuery('#mobile-menu').click(function() {
+        jQuery('.header-right').slideToggle();
+      });
+
+      });
