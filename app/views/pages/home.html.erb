@@ -6,7 +6,7 @@
   <title>
     Assured Nursing |
     We place nurses in fabulous places</title>
-  <link rel="shortcut icon" href="/files/2015/10/favicon.ico"/>
+  <link rel="shortcut icon" href="../public/favicon.ico"/>
   <link rel="profile" href="http://gmpg.org/xfn/11" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href-="app/assets/stylesheets/application.css" />
@@ -165,6 +165,7 @@ class="home page-template page-template-page-home page-template-page-home-php pa
 <div class="bar center">
   <div class="container">
     <span class="blue-title">View Jobs by Title:</span> &bull;
+    <!--  -->
     <a href="http://jobs.assurednursing.com/JobSeeker/SearchResults.aspx?spKeyword=rn+or+%22registered+nurse%22&spPayType=0&runsearch=1">RN</a> &bull;
     <a href="http://jobs.assurednursing.com/JobSeeker/SearchResults.aspx?spKeyword=cst+or+%22certified+surgical+technologist%22&spPayType=0&runsearch=1">CST</a> &bull;
     <a href="http://jobs.assurednursing.com/JobSeeker/SearchResults.aspx?spKeyword=cna+or+%22certified+nursing+assistant%22&spPayType=0&runsearch=1">CNA</a> &bull;
@@ -191,11 +192,10 @@ class="home page-template page-template-page-home page-template-page-home-php pa
 <footer class="site-footer" role="contentinfo">
   <div class="container">
     <div class="half left">
-      <img src="app/assets/images/footer-logo.jpg" alt="Assured Nursing">
-      <img src="app/assets/images/footer-logo2.png" alt="National Quality Approval">
-      <img src="app/assets/images/footer-wbe.png" alt="Certified Women's Business Enterprise">
-      <img src="app/assets/images/Proud-Exhibitor.png" alt="Travelers Conference Exhibitor">
-
+      <%= image_tag ("footer-logo.jpg"), alt: "Logo Footer" %>
+      <%= image_tag ("footer-logo2.png"), alt: "National Quality Approval" %>
+      <%= image_tag ("footer-wbe.png"), alt: "Certified Women's Business Enterprise" %>
+      <%= image_tag ("Proud-Exhibitor.png"), alt: "Traveler's Conference Exhibitor" %>
     </div>
     <div class="half right alignright">
       <h4>Give us a call! (317) 862-8141</h4>

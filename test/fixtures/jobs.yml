@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2018-02-27
+  jobId: 1
+  city: MyString
+  state: MyString
+  zipcode: MyString
+  license: MyString
+  specialty: MyString
+  shift: MyString
+  startdate: 2018-02-27
+  enddate: 2018-02-27
+  description: MyText
+  benefits: MyText
+  requirements: MyText
+
+two:
+  date: 2018-02-27
+  jobId: 1
+  city: MyString
+  state: MyString
+  zipcode: MyString
+  license: MyString
+  specialty: MyString
+  shift: MyString
+  startdate: 2018-02-27
+  enddate: 2018-02-27
+  description: MyText
+  benefits: MyText
+  requirements: MyText
