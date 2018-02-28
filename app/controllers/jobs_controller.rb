@@ -4,9 +4,10 @@ class JobsController < ApplicationController
   before_action :data_url, only: [:insert_jobs]
   API_URL = 'https://enigmatic-meadow-90199.herokuapp.com/'
 
-  def index
-    @jobs = Job.all
-    render json: @jobs
+  def index; end
+
+  def show
+
   end
 
   def insert_jobs
