@@ -341,7 +341,7 @@ a.button:hover {
 a {
     text-indent:-9999px;
     display:inline-block;
-    background:url(/files/2015/10/assured-nursing.jpg) no-repeat;
+    background-image:url("assured-nursing.jpg");
     width:220px;
     height:118px
 }
@@ -485,12 +485,12 @@ a {
 }
 #home-top
 .left {
-    background-image:url(/files/2015/11/home-nurse-left.jpg);
+    background-image:url("home-nurse-left.jpg");
     background-position:center right
 }
 #home-top
 .right {
-    background-image:url(/files/2015/11/home-nurse-right.jpg);
+    background-image:url("home-nurse-right.jpg");
     background-position:center left
 }
 #home-top .left, #home-top
@@ -541,7 +541,7 @@ a {
 #home-bottom {
     padding:60px
     0 100px;
-    background-image:url(/files/2015/11/home-bridge.jpg);
+    background-image:url("home-bridge.jpg");
     background-size:cover
 }
 .bar h3.second-font,#keyword-state-search {
@@ -557,7 +557,7 @@ a {
 }
 #state-search {
     background-color:#fff !important;
-    background:url(/files/2015/10/drop-arrow.png) no-repeat;
+    background:url("drop-arrow.png") no-repeat;
     background-position:right center;
     -moz-appearance:none;
     -webkit-appearance:none;
@@ -1252,5 +1252,3 @@ svg {margin-top: 0px; height: 320px !important; }
         margin: 15px 0 -40px;
     }
 }
-
-/*  */
